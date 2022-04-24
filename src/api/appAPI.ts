@@ -13,7 +13,7 @@ export type CodeType = {
     creator: string
     checksum: string
     source?: string
-    builder?: 'enigmampc/secret-contract-optimizer:1.0.0' | 'enigmampc/secret-contract-optimizer:1.0.1' | 'enigmampc/secret-contract-optimizer:1.0.2' | 'enigmampc/secret-contract-optimizer:1.0.3' | 'enigmampc/secret-contract-optimizer:1.0.4'
+    builder?: 'enigmampc/secret-contract-optimizer:1.0.0' | 'enigmampc/secret-contract-optimizer:1.0.1' | 'enigmampc/secret-contract-optimizer:1.0.2' | 'enigmampc/secret-contract-optimizer:1.0.3' | 'enigmampc/secret-contract-optimizer:1.0.4' | 'enigmampc/secret-contract-optimizer:1.0.5' | 'enigmampc/secret-contract-optimizer:1.0.6'
     contracts: Array<ContractType>
 }
 

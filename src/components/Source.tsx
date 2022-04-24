@@ -57,7 +57,7 @@ const Source: FC<IProps> = ({
 
     const classes = useStyles()
 
-    type BuilderVersionType = '1.0.0' | '1.0.1' | '1.0.2' | '1.0.3' | '1.0.4'
+    type BuilderVersionType = '1.0.0' | '1.0.1' | '1.0.2' | '1.0.3' | '1.0.4' | '1.0.5' | '1.0.6'
 
     const [verifyDialogOpen, setVerifyDialogOpen] = useState(false)
     // const [verifyResponseDialogOpen, setVerifyResponseDialogOpen] = useState(false)
@@ -277,6 +277,8 @@ const Source: FC<IProps> = ({
                             <MenuItem value={'1.0.2'}>1.0.2</MenuItem>
                             <MenuItem value={'1.0.3'}>1.0.3</MenuItem>
                             <MenuItem value={'1.0.4'}>1.0.4</MenuItem>
+                            <MenuItem value={'1.0.5'}>1.0.5</MenuItem>
+                            <MenuItem value={'1.0.6'}>1.0.6</MenuItem>
                         </Select>
                     </FormControl>
                 </Box>
